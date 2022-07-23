@@ -1,0 +1,149 @@
+#nav-top {
+  background: radial-gradient(
+    56.58% 56.58% at 50.09% 39.71%,
+    #ed5450 27.08%,
+    #bd1e2e 100%
+  );
+}
+
+#navbarDropdown,
+#dashboard-link,
+#home-link {
+  font-size: 20px;
+  color: white;
+}
+
+
+
+#searchbox {
+  width: 400px;
+}
+
+#seller-container {
+  background-color: #eed0cf;
+  background-image: url('undraw_personal_info_re_ur1n.svg');
+  background-size:auto;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 200px;
+  padding: 40px;
+  position: relative;
+  top: 40px;
+}
+
+#product-container {
+  width: 100%;
+  margin-top: 100px;
+   max-height: 80vh;
+  overflow-y: scroll;
+  border-bottom: .3px solid rgb(175, 175, 175);
+  margin-bottom: 100px;
+}
+
+caption {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.table {
+  width: 100%;
+}
+
+
+.prod-num{
+     font-size: 24px;
+    font-weight: bold;
+}
+
+.prod-num span{
+     font-size: 26px;
+    font-weight: bold;
+
+}
+
+  #seller-title {
+    font-size: 24px;
+    font-weight: bold;
+            margin-bottom: 10px;
+
+  }
+  #seller-name{
+        font-size: 20px;
+        margin-bottom: 10px;
+
+  }
+  #seller-loc{
+            font-size: 20px;
+
+  }
+
+#unlista{
+  margin-right: 30px;
+}
+
+#navbarDropdown{
+  font-size: 14px;
+}
+
+
+.order-history{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+  top: 10px;
+  left: 0px;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 524px) {
+
+.prod-num{
+     font-size: 14px;
+    font-weight: bold;
+}
+
+.prod-num span{
+     font-size: 18px;
+    font-weight: bold;
+
+}
+
+  #seller-title {
+    font-size: 12px;
+    font-weight: bold;
+            margin-bottom: 10px;
+
+  }
+  #seller-name{
+        font-size: 14px;
+        margin-bottom: 10px;
+
+  }
+  #seller-loc{
+            font-size: 14px;
+
+  }
+
+  #add-new-product{
+      font-size: 16px;
+      padding: 2px;
+  }
+
+  #searchbox {
+    width: 100%;
+  }
+
+  #product-container {
+    width: 100%;
+  }
+
+  .table th:first-child,
+  td:first-child {
+    display: none;
+  }
+
+
+}

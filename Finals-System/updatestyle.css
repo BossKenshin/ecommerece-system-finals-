@@ -1,0 +1,28 @@
+.container{
+    width: 30%;
+    height: 200px;
+    position: relative;
+    top: 170px;
+   background-color: #eed0cf;
+
+
+  padding: 20px;
+    box-shadow: 1px 2px 2px #a7a7a7;
+
+}
+
+.mb-3 label{
+
+font-size: 22px;
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 524px) {
+.container{
+
+  width: 90%;
+
+}
+
+}

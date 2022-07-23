@@ -1,0 +1,60 @@
+#nav-top {
+  background: radial-gradient(
+    56.58% 56.58% at 50.09% 39.71%,
+    #ed5450 27.08%,
+    #bd1e2e 100%
+  );
+}
+
+#navbarDropdown,
+#dashboard-link,
+#home-link {
+  font-size: 20px;
+  color: white;
+}
+
+
+
+.img-container{
+    width: 90%;
+    height: 200px;
+    text-align: center;
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+
+
+#seller-container{
+   background-color: #eed0cf;
+    height: fit-content;
+    width: 400px;
+    margin-top: 20px;
+    padding: 40px;
+    box-shadow: 1px 2px 2px #a7a7a7;
+
+}
+
+#unlista{
+  margin-right: 30px;
+}
+
+#navbarDropdown{
+  font-size: 14px;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 524px) {
+
+
+#seller-container{
+width: 100%;
+
+}
+
+
+}

@@ -1,0 +1,201 @@
+.container-fluid {
+  background-color: rgb(255, 255, 255);
+  height: 120vh;
+}
+
+.container {
+  margin-top: 60px;
+  margin-bottom: 46px;
+  height: fit-content;
+  color: rgb(0, 0, 0);
+  width: 50%;
+  background-color: rgba(236, 236, 236, 0.795);
+  border-radius: 10px;
+  border: 0.1px #979797 solid;
+  padding: 10px;
+}
+
+.col-2,
+.col-6 {
+  padding-top: 20px;
+
+}
+
+
+#top-row{
+        height: 100px;
+    display: flex;
+    justify-content: space-between;
+ background: radial-gradient(
+    85.29% 85.29% at 50% 17.38%,
+    #f86158 0%,
+    #a80e1d 100%
+  );
+ 
+}
+
+
+.col-6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-fluid{
+    height: 150px;
+    width: 170px;
+}
+
+#br{
+    width: 220px;
+}
+
+#link-btn{
+    color: rgb(0, 0, 0);
+    
+}
+
+#row-bot{
+  margin-top: 100px;
+  height: fit-content;
+  background: #141111;
+}
+
+.about-text{
+    color:white;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.h5{
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.h3{
+    text-align: center;
+}
+
+.col-12:last-child{
+
+display: flex;
+justify-content: center;
+}
+
+#tcol{
+display: flex;
+justify-content: center;
+}
+
+
+#btn-signup{
+  
+  width: 220px;
+  height: 50px;
+}
+
+
+#select{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    width: 80%;
+  }
+
+  #row-bot{
+    margin-top: 0px;
+       height: 200px;
+       
+  }
+
+  .about-text{
+      font-size:15px ;
+      text-align: justify;
+  }
+  .col-6{
+    
+      width: 10px;
+  }
+
+  .col-2{
+    padding: 0px;
+      width: 15%;
+   
+  }
+
+
+  .col-2 a,img{
+      margin-top: 20px;
+   font-size: 7px;
+   text-align: justify;
+  }
+
+  .col-2:first-child{
+     position: relative;
+    top: 15px;
+    left: 95px;
+  }
+
+  .col-2:first-child img{
+    width: 180px;
+  }
+
+  
+.mx-auto{
+  width: 120px;
+}
+
+  #top-row{
+      display: flex;
+      justify-content: space-between;
+  }
+
+#form-row{
+  height: 1000px;
+  display: block;
+
+}
+
+
+#form-row .col-4{
+  width: 140%;
+}
+
+#form-row .col-4 input{
+
+  width: 100%;
+}
+
+
+
+#select{
+  width: 100%;
+  display:flex;
+}
+
+
+.col-12:last-child a{
+  font-size: 12px;
+  position: relative;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+ .container {
+    width: 80%;
+  }
+
+
+.col-6{
+  visibility: hidden;
+}
+}

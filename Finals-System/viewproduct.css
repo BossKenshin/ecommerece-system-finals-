@@ -1,0 +1,226 @@
+#nav-top {
+  background: radial-gradient(
+    56.58% 56.58% at 50.09% 39.71%,
+    #ed5450 27.08%,
+    #bd1e2e 100%
+  );
+}
+
+#navbarDropdown,
+#dashboard-link,
+#home-link {
+  font-size: 20px;
+  color: white;
+}
+
+.nav-item a {
+  color: rgb(124, 25, 25);
+}
+
+#searchbox {
+  width: 400px;
+}
+
+
+#product-view-div{
+  position: relative;
+  top: 30px;
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+.row{
+  height: fit-content;
+  padding: 10px;
+  background-color: rgb(247, 247, 247);
+}
+
+
+
+#product-image-slider{
+
+width: 100%;
+height: 350px;
+
+}
+
+#prod-image{
+height: 350px;
+background-color: rgb(232, 232, 232);
+
+}
+
+.carousel-item{
+  width: 100%;
+height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+
+
+
+#form-con{
+  font-family: sans-serif;
+}
+
+
+
+.product-information{
+  padding-top: 20px;
+  text-align: left;
+  height: 250px ;
+}
+
+#quan-wrapper{
+
+  width:200px;
+
+}
+
+
+.product-name{
+  font-size: 26px;
+    font-weight: bold;
+
+}
+.product-price{
+  font-size: 24px;
+  font-weight: bold;
+  color: #bd1e2e;
+}
+
+.size{
+  font-size: 20px;
+}
+
+.types{
+    font-size: 19px;
+
+}
+
+.stocks{
+  font-size: 18px;
+  color: rgb(128, 128, 128);
+}
+
+#form-con form{
+  width: 29% ;
+}
+
+#addcart-button{
+  width: 100%;
+  margin-top: 20px;
+}
+
+#footer{
+  margin-top: 200px ;
+  background-color: #212529;
+  padding: 20px;
+
+}
+
+#text-container{
+  text-align: center;
+}
+
+#unlista{
+  margin-right: 30px;
+}
+
+#navbarDropdown{
+  font-size: 14px;
+}
+
+#add-rate-product{
+  width: 250px;
+}
+
+#review-container{
+padding-top: 20px;
+margin-top: 100px;
+background-color: rgb(247, 247, 247);
+}
+
+
+@media screen and (min-width: 524px) and (max-width: 780px) {
+
+form{
+ margin-top: 20px ;
+}
+#addcart-button{
+width: 200px;
+}
+
+
+#prod-image{
+  width: 100%;
+height: 350px;
+
+} 
+
+#review-container{
+
+margin-top: 500px;
+}
+
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 524px) {
+  #searchbox {
+    width: 100%;
+  }
+
+  .row:last-child .col-8 {
+    width: 100%;
+  }
+
+#prod-image{
+  width: 100%;
+height: 350px;
+
+} 
+  .col-lg-4 {
+    margin-top: -20px;
+  }
+
+.product-information{
+
+  height:300px;
+  width: 200px;
+
+}
+
+#review-container{
+margin-top: 400px;
+position: relative;
+top: 100px;
+
+}
+
+#addcart-button{
+  width: 200px;
+  margin-top: 20px;
+}
+
+
+#review-container{
+
+margin-top: 400px;
+}
+
+form{
+  width:100% ;
+}
+#footer{
+
+margin-top: 300px;
+
+}
+
+
+}

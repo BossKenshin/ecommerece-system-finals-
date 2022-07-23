@@ -1,0 +1,362 @@
+html, body
+{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+
+}
+
+
+#nav-top {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+#about-link,
+#home-link {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+#content-div {
+  height: 100vh;
+  width: 100%;
+  background-image: url("transition/bg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-link:hover,
+#home-link:hover {
+  border-bottom: 1px solid red;
+}
+
+#content-row {
+  position: relative;
+  top: 180px;
+}
+
+.col {
+  height: 40vh;
+}
+
+.col:first-child {
+  padding-left: 70px;
+}
+
+#unlista {
+  margin-right: 100px;
+}
+
+.store-quote {
+  font-size: 72px;
+  color: white;
+  width: 400px;
+  line-height: 80px;
+  letter-spacing: -4px;
+}
+
+.store-quote, #shop-now{
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+
+#shop-now {
+  position: relative;
+  top: 50px;
+  width: 250px;
+  padding: 10px;
+}
+
+
+
+
+#prod-container {
+  height: 900px;
+}
+
+#image-showcase {
+  position: relative;
+  left: 350px;
+  top: -50px;
+  height: 800px;
+}
+
+.sec-quote {
+  font-size: 62px;
+  color: rgb(0, 0, 0);
+  width: 400px;
+  line-height: 80px;
+  letter-spacing: -4px;
+  position: relative;
+  bottom: 700px;
+}
+
+#shop-now-sec {
+  position: relative;
+  top: -650px;
+ width: 250px;
+  padding: 10px;
+}
+
+
+#shop-now-sec:hover{
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
+
+
+.category {
+  border-bottom: 1px black solid;
+  display: flex;
+  height: 100px;
+  list-style: none;
+  justify-content: center;
+}
+
+.category-item{
+  font-size: 36px;
+  margin: 20px;
+}
+
+#footer {
+  height: 300px;
+  background-color: #0f0f0f;
+  color: white;
+  padding: 40px;
+}
+
+.about-text {
+  font-size: 14px;
+}
+
+#footer ul li {
+  list-style: none;
+}
+
+.item a {
+  text-decoration: none;
+  color: white;
+}
+
+.col-sm:last-child {
+  border-left: 1px white solid;
+}
+
+
+
+@media screen and (max-width: 414px) {
+  
+#content-div{
+  width: 100%;
+  height: 100vh;
+}
+
+
+}
+
+
+@media screen and (max-width: 460px) {
+
+
+#about-link,
+#home-link {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#content-div{
+  width: 100%;
+  height: 100vh;
+}
+
+.col:last-child{
+  visibility: hidden;
+}
+
+
+#image-showcase {
+
+left: 0px;
+
+}
+
+.store-quote {
+width: 100%;
+
+}
+
+.sec-quote{
+  font-size: 40px;
+  bottom: 800px;
+}
+
+.category {
+  width: 100%;
+}
+
+.category-item{
+  font-size: 20px;
+}
+
+#footer{
+  height: fit-content;
+}
+
+}
+
+
+@media screen and (max-width: 390px) {
+
+.store-quote{
+  font-size: 50px;
+  bottom: 800px;
+}
+
+
+
+}
+
+@media screen and (max-width: 360px) {
+
+.store-quote{
+   font-size: 40px;
+     bottom: 800px;
+
+ } 
+
+ #shop-now{
+   position: relative;
+   top: 0px;
+ }
+
+ #content-div{
+   height: 100vh;
+ }
+
+#image-showcase {
+
+width: 300px;
+height: 500px;
+
+}
+
+.sec-quote{
+
+bottom: 300px;
+font-size:38px;
+
+}
+
+#shop-now-sec{
+  top: -500px;
+  bottom: 0px;
+}
+
+
+#prod-container{
+
+height: 80vh;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+
+#about-link,
+#home-link {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#content-div{
+  height: 100vh;
+  background-image: none;
+  background-color: #b91a25;
+}
+
+.store-quote{
+  font-size:72px;
+}
+
+}
+
+
+@media screen and (max-width: 1147px) {
+#about-link,
+#home-link {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+}

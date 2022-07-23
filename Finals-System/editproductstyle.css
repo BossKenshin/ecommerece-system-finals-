@@ -1,0 +1,94 @@
+#nav-top {
+  background: radial-gradient(
+    56.58% 56.58% at 50.09% 39.71%,
+    #ed5450 27.08%,
+    #bd1e2e 100%
+  );
+}
+
+#navbarDropdown,
+#dashboard-link,
+#home-link {
+  font-size: 20px;
+  color: white;
+}
+
+
+
+#searchbox {
+  width: 400px;
+}
+
+#content-div {
+  background-color: #eed0cf;
+  border-radius: 5px;
+  height: fit-content;
+  width: 50%;
+  padding: 40px;
+  position: relative;
+  top: 40px;
+  display: flex;
+}
+
+.img-container{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
+  position: relative;
+  right: 20px;
+}
+
+#unlista{
+  margin-right: 30px;
+}
+
+#navbarDropdown{
+  font-size: 14px;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+
+.img-container{
+  width: 90%;
+  height: 200px;
+right: 0px;
+margin: 0  auto;
+
+}
+
+#content-div{
+    width:80%;
+    display: block;
+}
+
+.form-container input[type="file"]{
+font-size: 10px;
+}
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 900px) {
+
+
+#content-div{
+  width: 60%;
+    display: block;
+}
+.img-container{
+  width: 90%;
+  height: 200px;
+right: 0px;
+margin: 0  auto;
+
+}
+
+}
+
+
+
